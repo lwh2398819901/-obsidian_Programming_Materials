@@ -24,3 +24,4 @@ tmp/test.md
 tmp/*
 .trash/*
 02 编程语言学习/python/jupyterLab/*
+.obsidian/*
