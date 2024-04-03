@@ -26,13 +26,29 @@
 
 Linux要求内核3.0以上
 
+- 命令行安装
+
+**ubuntu**
+```bash
+sudo apt install docker-ce
+```
+
+**centos**
+
 
 ## 设置
 镜像加速：
 
 **ubuntu**
-`mkdir /etc/docker/`
-`touch /etc/docker/daemon. json` 
-`{"registry-mirrors": ["https://registry.cn-hangzhou.aliyuncs.com"]}`
+
+```bash
+mkdir /etc/docker/
+touch /etc/docker/daemon. json 
+{"registry-mirrors": ["https://registry.cn-hangzhou.aliyuncs.com"]} # 阿里镜像
+
+sudo systemctl restart docker
+```
+
 
 **centos**
+与 ubuntu 类似，可能只有目录需要注意
