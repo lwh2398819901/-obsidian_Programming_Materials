@@ -17,3 +17,5 @@
 [docker仓库](http://www.hub.docker.com/)
 
 [Docker Docs](https://docs.docker.com/)
+
+镜像加速：
