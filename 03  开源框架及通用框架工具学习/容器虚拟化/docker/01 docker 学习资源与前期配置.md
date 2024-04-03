@@ -1,4 +1,4 @@
-
+## 学习资源
 狂神说 B 站视频：  
 [1、Docker学习大纲_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1og4y1q7M4?p=1)
 
@@ -18,6 +18,21 @@
 
 [Docker Docs](https://docs.docker.com/)
 
+
+
+## 安装
+
+- 环境准备
+
+Linux要求内核3.0以上
+
+
+## 设置
 镜像加速：
 
+**ubuntu**
+`mkdir /etc/docker/`
+`touch /etc/docker/daemon. json` 
+`{"registry-mirrors": ["https://registry.cn-hangzhou.aliyuncs.com"]}`
 
+**centos**
