@@ -231,13 +231,6 @@ Surfing 是一个 Obsidian 插件，允许你在 Obsidian 中像使用浏览器�
 ### Obsidian Git
 [denolehov/obsidian-git: Backup your Obsidian.md vault with git (github.com)](https://github.com/denolehov/obsidian-git)
 
-<iframe src="https://github.com/denolehov/obsidian-git" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
-
-![[1701657789442.png]]
-![[1701656756917.png]]
-![[1701656771254.png]]
-![[1701656796477.png]]
-![[附件/1701656842702.png]]
 
 
 
