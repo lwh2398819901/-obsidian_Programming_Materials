@@ -130,6 +130,26 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 <font color="#00b050">评价： 好用，简单，方便，易用！</font>
 
 
+### 自动同步仓库 Obsidian Git (必装)
+[denolehov/obsidian-git: Backup your Obsidian.md vault with git (github.com)](https://github.com/denolehov/obsidian-git)
+
+1、设置自动提交并同步的间隔
+2、设置自动拉取间隔 
+3、设置打开 obsidian后自动拉取
+
+![](附件/1737507474576.jpg)
+
+![](附件/Pasted%20image%2020250122085823.png)
+
+
+
+
+
+### Smart Composer
+
+
+
+
 ### 增强图片的查看和管理 Image Toolkit （选装）
 用于增强图片的查看和管理功能。它提供了以下主要功能：
 
@@ -225,20 +245,6 @@ Surfing 是一个 Obsidian 插件，允许你在 Obsidian 中像使用浏览器�
 
 ![](附件/Pasted%20image%2020250121162803.png)
 <font color="#00b050">评价：方便快速回溯最近文件，适合需要频繁切换文件的用户</font>
-
-
-
-### 自动同步仓库 Obsidian Git (必装)
-[denolehov/obsidian-git: Backup your Obsidian.md vault with git (github.com)](https://github.com/denolehov/obsidian-git)
-
-
-
-
-
-
-
-
-
 
 
 
