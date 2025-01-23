@@ -145,7 +145,32 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 
 
 
-### Smart Composer
+### Smart Composer (必装)
+
+[glowingjade/obsidian-smart-composer: AI chat assistant for Obsidian with contextual awareness, smart writing assistance, and one-click edits. Features vault-aware conversations, semantic search, and local model support.](https://github.com/glowingjade/obsidian-smart-composer)
+
+旨在通过AI帮助用户高效写作，并能够轻松引用库中的内容。以下是其主要特点和功能：
+
+### 主要功能：
+1. **上下文聊天**：
+    - 允许用户选择特定的文件或文件夹作为对话的上下文。
+    - 支持多媒体内容（如图片、网站链接、YouTube视频）作为额外上下文。
+2. **应用编辑**：
+    - 提供文档修改建议，用户可以通过一键应用这些建议。
+3. **库搜索（RAG）**：
+    - 自动从库中查找相关笔记，以增强AI的响应。
+4. **自定义模型选择**：
+    - 支持使用本地模型（如Ollama）或自定义API密钥（如OpenAI、Anthropic、Gemini等）。
+5. **提示模板**：
+    - 创建和重用常见查询的模板，提升重复任务的效率。
+
+如果有 openAI 等模型的 key, 可直接填写后选用，也可以使用自定义的模型（openAI 兼容）
+
+![](附件/Pasted%20image%2020250122151051.png)
+
+![](附件/Pasted%20image%2020250122151119.png)
+
+<font color="#00b050">评价： 好用，方便，有学习成本 但是值得学习！</font>
 
 
 ### 增强图片的查看和管理 Image Toolkit （选装）
@@ -245,4 +270,21 @@ Surfing 是一个 Obsidian 插件，允许你在 Obsidian 中像使用浏览器�
 <font color="#00b050">评价：方便快速回溯最近文件，适合需要频繁切换文件的用户</font>
 
 
+
+
+###  提供类似 vscode 的编辑器 Vscode-editor （选装）
+
+基于 Monaco Editor（VSCode Editor 内核）开发，支持查看和编辑各种代码格式文件。默认支持以下语言：
+- C、C++、C#、Go、HTML
+- Java、JavaScript、JSON
+- Python、Ruby、Rust
+- Shell、XML、YAML、ini
+
+可在插件设置中添加更多语言。
+
+**特点**：
+- 支持 VS Code 快捷键（复制、粘贴、保存、注释、缩进、行移动等）
+- 适配暗色和亮色主题
+- 支持右键编辑 md 文件中的代码块
+- 支持 md 链接快速预览代码文件（需开启“检测所有类型文件”）
 
