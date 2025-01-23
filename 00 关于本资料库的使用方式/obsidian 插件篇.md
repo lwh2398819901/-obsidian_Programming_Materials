@@ -151,7 +151,7 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 
 旨在通过AI帮助用户高效写作，并能够轻松引用库中的内容。以下是其主要特点和功能：
 
-### 主要功能：
+ **主要功能**
 1. **上下文聊天**：
     - 允许用户选择特定的文件或文件夹作为对话的上下文。
     - 支持多媒体内容（如图片、网站链接、YouTube视频）作为额外上下文。
@@ -171,6 +171,48 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 ![](附件/Pasted%20image%2020250122151119.png)
 
 <font color="#00b050">评价： 好用，方便，有学习成本 但是值得学习！</font>
+
+### Pdf 阅读工具 PDF++
+以下是关于 Obsidian 插件 **PDF++** 的简要总结：
+
+ **插件简介**
+- **PDF++** 是 Obsidian 的一款 PDF 标注增强插件，适合用于读书笔记。
+- 主要功能包括：
+  - **高亮注释**：将 PDF 文件中的反向链接转换为高亮注释。
+  - **注释同步**：支持将注释直接添加到 PDF 文件中，外部软件也可查看。
+  - **查看器增强**：提升内置 PDF 查看器的体验。
+
+ **推荐设置**
+1. **Editing PDF files**：关闭，避免文件损坏风险。
+2. **Backlink highlighting**：
+   - 自定义高亮颜色。
+   - 开启 `Highlight backlinks in PDF embeds` 和 `Highlight backlinks in hover popover previews`。
+   - 设置 `How to open the markdown file when no markdown file is opened` 为 `Split left`。
+3. **PDF toolbar**：
+   - 关闭 `Show zoom level box` 和 `Show "without specifying color" button in the color palette`。
+4. **Link copy templates**：
+   - 自定义注释模板，推荐使用以下代码：
+     ```markdown
+     > [!{{calloutType}}|{{color}}] {{linkWithDisplay}}
+     > > {{text}}
+     > 
+     > 
+     ```
+5. **Auto-paste**：
+   - 设置 `How to open target markdown file when not opened` 为 `Split left`。
+   - 关闭 `Always open in editing view`。
+   - 设置 `New note title format` 为 `Notes/{{ file.basename }}.md`。
+
+### 使用方法
+- 每个 PDF 文件对应一个 Markdown 文件。
+- 打开 PDF 文件后，点击 `PDF++: Toggle auto-paste` 按钮启用自动粘贴功能。
+- 选中文本后按快捷键，自动将注释粘贴到对应的 Markdown 文件中。
+
+### 注意事项
+- 插件设置较多，建议根据需求调整。
+- 部分功能（如 `Editing PDF files`）存在风险，谨慎使用。
+
+如需更详细的设置说明，可参考 [PKMer 文档](https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E7%A4%BE%E5%8C%BA%E6%8F%92%E4%BB%B6/pdf-plus/)。
 
 
 ### 增强图片的查看和管理 Image Toolkit （选装）
