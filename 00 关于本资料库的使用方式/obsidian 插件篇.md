@@ -15,7 +15,7 @@
 
 
 ### 模板
-·
+·                                                                                                    
 设置=》核心插件=》模板启用
 ![[Pasted image 20220724231433.png|800]]
 参数设置=》选择模板文件夹
@@ -51,11 +51,15 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 
 [终于可以用上中文的obsidian插件了！ob插件汉化/翻译/国际化工具 ob-i18n正式发布！_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1VcxJeNExx/)
 
+追加介绍，不要开启这个选项，我能理解作者恰饭的需求，只是我个人不喜欢，
+![|550](附件/1737624203692.png)
+会有这个侧边栏
+![|386](附件/Pasted%20image%2020250123172711.png)
 <font color="#00b050">评价： 非常方便快捷感谢！英文不好的小伙伴必备！</font>
 
-#### AI 辅助  Smart Composer (必装)
+#### AI 辅助  Smart Composer (必装)                                                                                                                                                                                                        
 
-[glowingjade/obsidian-smart-composer: AI chat assistant for Obsidian with contextual awareness, smart writing assistance, and one-click edits. Features vault-aware conversations, semantic search, and local model support.](https://github.com/glowingjade/obsidian-smart-composer)
+[glowingjade/obsidian-smart-composer: AI chat assistant for Obsidian with contextual awareness, smart writing assistance, and one-click edits. Features vault-aware conversations, semantic search, and local model support.    ](https://github.com/glowingjade/obsidian-smart-composer)
 
 旨在通过AI帮助用户高效写作，并能够轻松引用库中的内容。以下是其主要特点和功能：
 
@@ -68,7 +72,7 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 3. **<span style="background:#40a9ff">库搜索</span>（RAG）**：
     - 自动从库中查找相关笔记，以增强AI的响应。
 4. **自定义模型选择**：
-    - 支持使用本地模型（如Ollama）或自定义API密钥（如OpenAI、Anthropic、Gemini等）。
+    - 支持使用本地模型（如Ollama）或自定义API密钥（如OpenAI、Anthropic、Gemini等）。                                                                      
 5. **提示模板**：
     - 创建和重用常见查询的模板，提升重复任务的效率。
 
