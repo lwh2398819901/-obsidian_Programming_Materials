@@ -66,7 +66,7 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 ![|386](附件/Pasted%20image%2020250123172711.png)
 <font color="#00b050">评价： 非常方便快捷感谢！英文不好的小伙伴必备！</font>
 
-#### AI 辅助  Smart Composer (必装)                                                                                                                                                                                                        
+#### AI 辅助  Smart Composer (必装)                                                                                                                                                                                                       
 
 [glowingjade/obsidian-smart-composer: AI chat assistant for Obsidian with contextual awareness, smart writing assistance, and one-click edits. Features vault-aware conversations, semantic search, and local model support.    ](https://github.com/glowingjade/obsidian-smart-composer)
 
@@ -170,7 +170,8 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 - 自定义
     - 自定义不同区块间的空格策略
     - 自定义正则区块
-    - 
+
+
 [PKMer_Obsidian 插件：Easy Tpying 自动格式化你的中英文标点输入格式](https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E7%A4%BE%E5%8C%BA%E6%8F%92%E4%BB%B6/easy-typing-obsidian/)
 
 默认生效，启用即可
