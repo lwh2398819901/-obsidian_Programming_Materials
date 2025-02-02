@@ -1,8 +1,4 @@
----
-dg-publish: false
----
-```toc
-```
+
 ## arp
 相关配置文件　
 - /etc/hosts: 

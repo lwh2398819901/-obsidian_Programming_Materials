@@ -1,9 +1,5 @@
 
----
-dg-publish: false
----
-```toc
-```
+
 
 ## dumpe2fs
 日志文件系统ext3/ext4　查看日志所占大小和inode  

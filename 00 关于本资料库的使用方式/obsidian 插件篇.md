@@ -217,6 +217,17 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 
 ![](附件/Pasted%20image%2020250122085823.png)
 
+#### 文件数量统计 File Explorer Note （选装）
+
+![](附件/Pasted%20image%2020250202215937.png)
+**设置选项**
+
+- **Show All Numbers**：开启后可查看包括子文件夹在内的所有文件夹的计数
+- **Exclude Folder Note from Counts**：是否包含统计子文件夹的数量
+- **Show Only Markdown Notes**：是否只统计 Markdown 格式的笔记文件，默认开启
+- **Filter List**：可设置排除计算的文件后缀名，默认为留空。
+- **Enable Blacklist**：启动排除列表，默认关闭
+
 ### 阅读与标注
 
 #### Pdf 阅读工具 PDF++ (必装)
@@ -369,7 +380,7 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 - 支持右键编辑 md 文件中的代码块
 - 支持 md 链接快速预览代码文件（需开启“检测所有类型文件”）
 
-#### 内嵌浏览器 Surfing （选装）
+#### 内嵌浏览器 Surfing （必装）
 Surfing 是一个 Obsidian 插件，允许你在 Obsidian 中像使用浏览器一样浏览网页。
 
 **主要功能**：

@@ -1,8 +1,4 @@
----
-dg-publish: false
----
-```toc
-```
+
 ## blkid
 <iframe 
  height=500
@@ -10,6 +6,7 @@ dg-publish: false
 src="https://linux.cn/article-4734-1.html"　
 >
 </iframe>
+
 ```bash
 root@uos-PC /h/u/Desktop# blkid
 /dev/nvme0n1p1: LABEL_FATBOOT="EFI" LABEL="EFI" UUID="7CA3-3E11" TYPE="vfat" PARTUUID="81af3950-b94d-4b11-a2c8-41ed26ae454e"
