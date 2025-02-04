@@ -289,7 +289,7 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 <font color="#00b050">评价：适合需要导出 PDF 并希望保留书签和页码的用户</font>
 
 #### 鼠标滚轮缩放图片 Mousewheel Image zoom （必装）
-![|725](附件/Pasted%20image%2020250121145645.png)
+![|775](附件/Pasted%20image%2020250121145645.png)
 默认生效，启用即可
 <font color="#00b050">评价：简单易用</font>
 
