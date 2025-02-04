@@ -66,8 +66,7 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 ![|386](附件/Pasted%20image%2020250123172711.png)
 <font color="#00b050">评价： 非常方便快捷感谢！英文不好的小伙伴必备！</font>
 
-#### AI 辅助  Smart Composer (必装)                                                                                                                                                                                                       
-
+#### AI 辅助  Smart Composer (必装)                                                                                                              
 [glowingjade/obsidian-smart-composer: AI chat assistant for Obsidian with contextual awareness, smart writing assistance, and one-click edits. Features vault-aware conversations, semantic search, and local model support.    ](https://github.com/glowingjade/obsidian-smart-composer)
 
 旨在通过AI帮助用户高效写作，并能够轻松引用库中的内容。以下是其主要特点和功能：
@@ -178,12 +177,15 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 默认生效，启用即可
 <font color="#00b050">评价：简单易用</font>
 
+
+
 ### 文件管理
 #### 文件清理 File Cleaner （必装）
 清理没有引用的文件 （图片），建议修改设置为移动到内部的. Trash 文件夹内，防止误删除
 ![|700](附件/Pasted%20image%2020250121111144.png)
 
 <font color="#00b050">评价：简单易用</font>
+
 
 #### 方便快速查看和回溯最近的文件 Recent Files （选装）
 
