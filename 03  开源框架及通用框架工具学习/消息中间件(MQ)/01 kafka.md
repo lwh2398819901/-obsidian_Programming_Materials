@@ -1,8 +1,3 @@
----
-dg-publish: false
----
-```toc
-```
 
 ## 名词解释
 
