@@ -1,5 +1,7 @@
 #ai一些基础概念 
 
+
+
 [科普向：到底什么是RAG？_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1qC4y1F7Dy/?spm_id_from=333.1387.0.0&vd_source=ccbe0c793ac5e34ebb735794692f049e)
 
 RAG（Retrieval-Augmented Generation）是一种结合了信息检索（Retrieval）和文本生成（Generation）的模型架构，主要用于生成更准确和相关的文本内容。它由 Facebook AI（现 Meta AI）在 2020 年提出，旨在解决传统生成模型（如 GPT）在生成内容时可能出现的知识不足或错误的问题。
@@ -30,3 +32,4 @@ RAG 模型通常由两个主要组件构成：
 RAG 是一种强大的模型架构，通过结合信息检索和文本生成，能够生成更加准确和相关的文本内容。它在问答、对话生成等任务中表现出色，特别适合需要大量外部知识的场景。
 
 如果你有更多关于 RAG 的具体问题或应用场景，欢迎进一步讨论！
+
