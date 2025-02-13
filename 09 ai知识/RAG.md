@@ -1,4 +1,4 @@
-#ai基础概念 
+#ai一些基础概念 
 
 [科普向：到底什么是RAG？_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1qC4y1F7Dy/?spm_id_from=333.1387.0.0&vd_source=ccbe0c793ac5e34ebb735794692f049e)
 
