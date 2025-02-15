@@ -9,6 +9,7 @@
 
 **核心原则**：插件是工具，笔记是核心。不要让插件喧宾夺主，保持笔记的简洁和高效。
 
+
 ---
 
 ## 核心插件
@@ -55,7 +56,7 @@
 
 <font color="#00b050">评价： 非常方便快捷感谢！国内用户必备</font>
 
-#### 翻译插件 i18n （必装）
+#### 翻译插件 i18n （必装） #ai
 i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面语言切换为多种语言。
 
 [终于可以用上中文的obsidian插件了！ob插件汉化/翻译/国际化工具 ob-i18n正式发布！_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1VcxJeNExx/)
@@ -66,7 +67,7 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 ![|386](附件/Pasted%20image%2020250123172711.png)
 <font color="#00b050">评价： 非常方便快捷感谢！英文不好的小伙伴必备！</font>
 
-#### AI 辅助  Smart Composer (必装)                                                                                                              
+#### AI 辅助  Smart Composer (必装)   #ai                                                                                                           
 [glowingjade/obsidian-smart-composer: AI chat assistant for Obsidian with contextual awareness, smart writing assistance, and one-click edits. Features vault-aware conversations, semantic search, and local model support.    ](https://github.com/glowingjade/obsidian-smart-composer)
 
 旨在通过AI帮助用户高效写作，并能够轻松引用库中的内容。以下是其主要特点和功能：
@@ -91,6 +92,8 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 ![](附件/Pasted%20image%2020250122151119.png)
 
 <font color="#00b050">评价： 高效写作助手，好用，方便，有学习成本但是值得学习！</font>
+#### AI 辅助  Copilot  (选装) #ai
+
 ### 编辑增强
 
 #### 编辑工具栏 Editing Toolbar （必装）
@@ -158,7 +161,7 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 
 <font color="#00b050">评价： 简单，方便，易用！</font>
 
-#### Easy Typing （选装）
+#### 自动格式化 Easy Typing （选装）
 包含编辑时自动格式化文本和符号编辑增强。
 
 - 自动化：
@@ -178,6 +181,8 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 <font color="#00b050">评价：简单易用</font>
 
 
+
+#### Note Toolbar
 
 ### 文件管理
 #### 文件清理 File Cleaner （必装）
@@ -229,6 +234,8 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 - **Show Only Markdown Notes**：是否只统计 Markdown 格式的笔记文件，默认开启
 - **Filter List**：可设置排除计算的文件后缀名，默认为留空。
 - **Enable Blacklist**：启动排除列表，默认关闭
+
+#### Iconize
 
 ### 阅读与标注
 
@@ -305,10 +312,21 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 默认生效，启用即可
 <font color="#00b050">评价：简单易用</font>
 
-### 多媒体支持
-#### 视频插件 Media Extended 和 Media Extended BiliBili（选装）
+#### ePub Reader
 
-**一边视频，一边笔记**需要安装两个插件到**Obsidian**，运行这两个插件——**Media Extended和Media Extended BiliBili**，把视频链接粘贴到笔记中，就可以用阅读视图打开笔记，打开视频链接就可以观看分屏视频或者悬浮视频。
+#### Tag Wrangler
+
+#### Tag Summary
+
+#### Weread
+
+### 多媒体支持
+#### 视频插件 Media Extended ~~和 Media Extended BiliBili~~（选装）
+
+**一边视频，一边笔记**需要安装两个插件到**Obsidian**，运行这~~两~~个插件——**Media Extended**~~**和Media Extended BiliBili**~~，把视频链接粘贴到笔记中，就可以用阅读视图打开笔记，打开视频链接就可以观看分屏视频或者悬浮视频。
+
+最新版本的只需要安装 Media Extended 即可打开 B 站
+<span style="background:#b1ffff">Ps：当使用翻译后的版本时，会出现无法设置自定义的倍速，但是无伤大雅可以接受</span>
 
 **详细介绍**
 [科研笔记神器：​​一边视频，一边笔记，轻松搞定B站视频学习 - 知乎](https://zhuanlan.zhihu.com/p/466468893)
@@ -329,7 +347,7 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 安装第三方插件 excalidraw
 ![[附件/插图测试|218]]
 
-<font color="#00b050">评价：简单易用</font>
+<font color="#00b050">评价：简单易用，功能强大，有很多丰富功能，但是我没有研究</font>
 
 ### 其他工具
 #### 大纲增强 Quiet Outline （选装）
@@ -373,6 +391,9 @@ Surfing 是一个 Obsidian 插件，允许你在 Obsidian 中像使用浏览器�
 6. **夜间模式**：提供简单的夜间模式，优化夜间浏览体验
 
 <font color="#00b050">评价：功能强大，适合需要在 Obsidian 中浏览网页的用户</font>
+
+
+## 未分类
 
 ## 结语
 
