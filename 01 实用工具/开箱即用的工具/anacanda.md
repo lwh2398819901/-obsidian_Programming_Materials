@@ -1,3 +1,11 @@
+---
+tags:
+  - "#linux"
+  - "#windows"
+  - "#CodeEnv"
+  - "#debug"
+---
+
 ## 简介
 官网
 

@@ -1,6 +1,12 @@
+---
+tags:
+  - linux
+  - "#windows"
+  - "#debug"
+---
 
-**提示：部分内容由chatgpt参与创作，本人不保证真实、准确性，但是也是经过本人审核过的**
 
+**<font color="#ff0000">提示：部分内容由 AI 创作，本人不保证真实、准确性，仅经过本人审核，对于资料真伪请自行判别</font>**
 ## 简介
 **前置知识：**
 
@@ -31,6 +37,23 @@
 
 
    尤其是后两个教程，我推荐是先看<font color=#FF0000>https原理</font>，然后再看官方文档等,可以更好的理解这个工具想要实现的目标及原理。
+
+
+**文档及参考链接:**
+
+- [**官方网站：mitmproxy**](https://mitmproxy.org/)
+- [**官方文档：mitmproxy 文档中心**](https://docs.mitmproxy.org/stable/)
+- [**中文介绍：mitmproxy 入门指南**](https://ptorch.com/docs/10/mitmproxy_introduction)
+- [**优秀总结：mitmproxy 使用总结**](https://blog.wolfogre.com/posts/usage-of-mitmproxy/)
+- 推荐视频教程：
+  - [从安装到简单使用： mitmproxy 抓包工具](https://www.bilibili.com/video/BV1UC4y1t7EL)
+    > 教程源码下载：[百度网盘链接](https://pan.baidu.com/s/1PwdPZld7nCdSV3edjbOQWQ)
+  - [秒懂 HTTPS 协议原理](https://www.bilibili.com/video/BV1g34y1C7nk)
+- **重要提示**：尤其是后两个教程，建议先学习 HTTPS 原理，再结合官方文档，可以更好地理解 mitmproxy 的工作目标和实现原理。
+
+> 提示：[获取 mitmproxy 证书](https://ptorch.com/docs/10/mitmproxy-concepts-certificates)
+
+
 
 **背景：**
 
@@ -79,7 +102,7 @@
 
 ## 测试
 
-### [[【container】docker|docker部署]]
+### [[docker|docker部署]]
 
 参考链接 ：[dockerhub:mitmproxy](https://hub.docker.com/r/mitmproxy/mitmproxy/)
 
