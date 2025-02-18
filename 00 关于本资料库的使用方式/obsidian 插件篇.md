@@ -321,6 +321,8 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 
 #### Tag Summary （选装）
 
+#### TagFolder（选装）
+
 #### 同步微信读书 Weread （选装）
 
 ### 多媒体支持
