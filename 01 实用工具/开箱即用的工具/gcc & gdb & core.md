@@ -1,4 +1,8 @@
-
+---
+tags:
+  - " #CodeBuild "
+  - " #linux"
+---
 ## gcc
 
 **g++** <font color=#FF0000>g++在链接*.a静态库时，</font>直接作为object使用，不需要使用-l ，但是需要注意调整顺序，被依赖的文件放在后面。

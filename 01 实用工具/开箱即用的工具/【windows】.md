@@ -176,4 +176,21 @@ Windows 平台下工具推荐
 - 下载地址:
 - 特点：
     - 
-    - 
+
+
+### Enigma Virtual Box
+
+- **简介**：Enigma Virtual Box 是一款免费的软件虚拟化工具。它可以将多个文件封装到应用程序主文件中，把程序和配套文件打包成一个可执行文件，制作成为单执行文件的绿色软件。支持所有类型的文件格式，如动态链接库\*. dll、ActiveX/COM\*. dll,\*. ocx、视频/音频文件\*. avi,\*. mp 3、文本文件\*. txt,\*. doc 等。
+- **官网**
+    - **中文官网**：https://enigmaprotector.cn/cn/downloads.html
+    - **英文官网**：https://enigmaprotector.com/en/downloads.html
+- **下载地址**：可从[中文官网](https://enigmaprotector.cn/cn/downloads.html)或[英文官网](https://enigmaprotector.com/en/downloads.html)进行下载，也可直接点击[https://enigmaprotector.com/assets/files/enigmavb.exe](https://enigmaprotector.com/assets/files/enigmavb.exe)进行下载。
+- **特点**
+    - **广泛的文件支持**：支持各种类型的文件进行虚拟打包，无论是程序文件、库文件、多媒体文件还是文档文件等都能轻松处理。
+    - **无临时文件释放**：不会释放临时文件到计算机，也不会将打包文件释放至硬盘，所有文件模拟过程仅在内存运行，有效保护用户隐私和系统整洁。
+    - **跨平台兼容**：支持 x 86（32 位）和 x 64（64 位）文件，打包后的程序能在 Windows 2000/XP/2003/Vista/2008、Windows 7、Windows 10 等广泛的 Windows 操作系统中运行。
+    - **文件压缩功能**：支持文件的压缩，可大幅减少生成文件的体积，便于软件的分发和存储。
+    - **使用简单方便**：不需要懂得额外的编程代码，只需运行该工具，浏览选择需要打包的文件，添加到打包目录列表中，最后点击打包即可完成操作。
+    - **完全免费**：是一个完全免费的程序，不需要付费注册，为用户提供了经济高效的文件封装解决方案。
+
+![|775](附件/Pasted%20image%2020250218114041.png)
