@@ -6,8 +6,8 @@ author: Noureddine
 tags: communication, email
 version: 0.0.1
 ---
-prompt:
-reply to this email negatively in professional way. 
-email: 
-{{context}}
-reply:
+prompt:                                        
+reply to this email negatively in professional way.   
+email:   
+{{context}}  
+reply:  

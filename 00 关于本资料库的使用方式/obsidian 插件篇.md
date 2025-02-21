@@ -92,6 +92,9 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 ![](附件/Pasted%20image%2020250122151119.png)
 
 <font color="#00b050">评价： 高效写作助手，好用，方便，有学习成本但是值得学习！</font>
+
+#### AI 辅助 Text Generator  (选装) #ai
+
 #### AI 辅助  Copilot  (选装) #ai
 
 ### 编辑增强
