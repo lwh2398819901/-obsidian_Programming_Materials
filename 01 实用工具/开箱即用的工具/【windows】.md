@@ -1,7 +1,7 @@
 ---
 tags:
   - "#windows"
-  - ai协助编辑
+  - ai生成
 ---
 
 

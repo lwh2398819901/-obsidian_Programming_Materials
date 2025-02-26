@@ -3,7 +3,7 @@ tags:
   - "#CodeBuild"
   - "#linux"
   - "#windows"
-  - "#ai协助编辑"
+  - "#ai生成"
 ---
 
 
