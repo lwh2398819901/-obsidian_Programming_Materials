@@ -28,6 +28,7 @@ tmp/*
 .trash/*
 资料/*
 13 读书笔记/微信读书/*
+资料
 
 # Ignore Smart Environment folder
 .smart-env
