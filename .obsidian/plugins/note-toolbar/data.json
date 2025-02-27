@@ -410,16 +410,16 @@
           }
         },
         {
-          "uuid": "4fd6ff4a-a554-450d-ad6a-0e056e53f8bb",
+          "uuid": "d104cbd7-c07f-405b-bb6d-3da11d8e0242",
           "label": "",
           "icon": "lucide-file-diff",
-          "link": "Commander: 文件修改对比",
+          "link": "Version history diff: Show Git Diff view for active file",
           "linkAttr": {
-            "commandId": "cmdr:macro-0",
+            "commandId": "obsidian-version-history-diff:open-git-diff-view",
             "hasVars": false,
             "type": "command"
           },
-          "tooltip": "Git: 打开差异视图",
+          "tooltip": "文件修改对比",
           "visibility": {
             "desktop": {
               "allViews": {
@@ -486,16 +486,16 @@
           }
         },
         {
-          "uuid": "d104cbd7-c07f-405b-bb6d-3da11d8e0242",
+          "uuid": "8f1c4ed2-ae33-4b6a-b640-09391e12c78b",
           "label": "",
-          "icon": "lucide-diff",
-          "link": "Version history diff: Show Git Diff view for active file",
+          "icon": "lucide-upload",
+          "link": "Commander: 保存并提交",
           "linkAttr": {
-            "commandId": "obsidian-version-history-diff:open-git-diff-view",
+            "commandId": "cmdr:macro-0",
             "hasVars": false,
             "type": "command"
           },
-          "tooltip": "",
+          "tooltip": "保存并提交至git",
           "visibility": {
             "desktop": {
               "allViews": {
@@ -605,7 +605,7 @@
       "position": {
         "desktop": {
           "allViews": {
-            "position": "props"
+            "position": "bottom"
           }
         },
         "mobile": {
@@ -619,7 +619,7 @@
           }
         }
       },
-      "updated": "2025-02-27T02:12:23.798Z"
+      "updated": "2025-02-27T02:32:58.513Z"
     },
     {
       "uuid": "7627b2eb-cbf1-4285-ae93-491ef0011f92",

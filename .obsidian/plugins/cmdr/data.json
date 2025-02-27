@@ -149,19 +149,19 @@
       "macro": [
         {
           "action": 0,
-          "commandId": "workspace:split-vertical"
-        },
-        {
-          "action": 1,
-          "delay": 250
+          "commandId": "obsidian-git:commit-staged"
         },
         {
           "action": 0,
-          "commandId": "obsidian-git:open-diff-view"
+          "commandId": "obsidian-git:commit"
+        },
+        {
+          "action": 0,
+          "commandId": "obsidian-git:push"
         }
       ],
-      "name": "文件修改对比",
-      "icon": "lucide-file-diff",
+      "name": "保存并提交",
+      "icon": "star",
       "startup": false
     }
   ],
