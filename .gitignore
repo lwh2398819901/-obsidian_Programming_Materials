@@ -1,5 +1,5 @@
 # 忽略整个.obsidian目录下的直接内容
-.obsidian/*
+.obsidian/
 
 # 保留核心配置文件
 !.obsidian/app.json
@@ -20,18 +20,6 @@
 
 # 单独忽略目标文件
 .obsidian/plugins/recent-files-obsidian/data.json
-
-# 忽略所有缓存和临时文件
-.obsidian/cache/
-.obsidian/*.db
-.obsidian/workspace*
-.obsidian/.trash/
-.obsidian/backups/
-
-# 操作系统元文件（可选）
-.obsidian/.DS_Store
-.obsidian/Thumbs.db
-
 
 # other
 temp/

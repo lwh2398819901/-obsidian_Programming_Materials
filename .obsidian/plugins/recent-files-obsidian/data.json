@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "前置知识",
+      "path": "02 编程语言学习/前端/前置知识.md"
+    },
+    {
+      "basename": "人月神话-中文版",
+      "path": "资料/思想/人月神话-中文版.pdf"
+    },
+    {
+      "basename": "15-【练习讲解】数据单位那些事",
+      "path": "资料/Javascript+Nodejs全栈前端全能课/15-【练习讲解】数据单位那些事.mp4"
+    },
+    {
+      "basename": "10-需要安装的几个软件",
+      "path": "资料/Javascript+Nodejs全栈前端全能课/10-需要安装的几个软件.mp4"
+    },
+    {
+      "basename": "问题集",
+      "path": "问题集/问题集.md"
+    },
+    {
       "basename": "关于本资料库的使用方式",
       "path": "00 关于本资料库的使用方式/关于本资料库的使用方式.md"
     },
@@ -9,16 +29,8 @@
       "path": "00 关于本资料库的使用方式/obsidian 插件篇.md"
     },
     {
-      "basename": "15-【练习讲解】数据单位那些事",
-      "path": "资料/Javascript+Nodejs全栈前端全能课/15-【练习讲解】数据单位那些事.mp4"
-    },
-    {
       "basename": "141-DOM创建 添加与删除",
       "path": "资料/Javascript+Nodejs全栈前端全能课/141-DOM创建 添加与删除.mp4"
-    },
-    {
-      "basename": "10-需要安装的几个软件",
-      "path": "资料/Javascript+Nodejs全栈前端全能课/10-需要安装的几个软件.mp4"
     },
     {
       "basename": "1-宣导片：如何拿下JavaScript？",
@@ -29,16 +41,8 @@
       "path": "00 关于本资料库的使用方式/markdown语法.md"
     },
     {
-      "basename": "问题集",
-      "path": "问题集/问题集.md"
-    },
-    {
       "basename": "人月神话",
       "path": "13 读书笔记/读书/人月神话.md"
-    },
-    {
-      "basename": "人月神话-中文版",
-      "path": "资料/思想/人月神话-中文版.pdf"
     },
     {
       "basename": "ai",
@@ -59,10 +63,6 @@
     {
       "basename": "cmake",
       "path": "01 实用工具/开箱即用的工具/cmake.md"
-    },
-    {
-      "basename": "前置知识",
-      "path": "02 编程语言学习/前端/前置知识.md"
     },
     {
       "basename": "【windows】",
