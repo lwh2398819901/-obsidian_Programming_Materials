@@ -258,6 +258,44 @@
           }
         },
         {
+          "uuid": "52a7ecd4-32b0-4ad4-9992-63c30a893cf5",
+          "label": "",
+          "icon": "lucide-table-of-contents",
+          "link": "Quiet Outline: Quiet Outline",
+          "linkAttr": {
+            "commandId": "obsidian-quiet-outline:quiet-outline",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "大纲",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
           "uuid": "8bc0fa74-c9bc-43d9-b6c1-46973ea83bf9",
           "label": "",
           "icon": "",
@@ -448,16 +486,16 @@
           }
         },
         {
-          "uuid": "52a7ecd4-32b0-4ad4-9992-63c30a893cf5",
+          "uuid": "8f1c4ed2-ae33-4b6a-b640-09391e12c78b",
           "label": "",
-          "icon": "lucide-table-of-contents",
-          "link": "Quiet Outline: Quiet Outline",
+          "icon": "lucide-upload",
+          "link": "Commander: 保存并提交",
           "linkAttr": {
-            "commandId": "obsidian-quiet-outline:quiet-outline",
+            "commandId": "cmdr:macro-0",
             "hasVars": false,
             "type": "command"
           },
-          "tooltip": "大纲",
+          "tooltip": "保存并提交至git",
           "visibility": {
             "desktop": {
               "allViews": {
@@ -486,16 +524,16 @@
           }
         },
         {
-          "uuid": "8f1c4ed2-ae33-4b6a-b640-09391e12c78b",
+          "uuid": "7e0ea361-de4f-4baf-9a50-bd5634f62989",
           "label": "",
-          "icon": "lucide-upload",
-          "link": "Commander: 保存并提交",
+          "icon": "lucide-git-graph",
+          "link": "Git: 打开历史记录视图",
           "linkAttr": {
-            "commandId": "cmdr:macro-0",
+            "commandId": "obsidian-git:open-history-view",
             "hasVars": false,
             "type": "command"
           },
-          "tooltip": "保存并提交至git",
+          "tooltip": " 打开历史记录视图",
           "visibility": {
             "desktop": {
               "allViews": {
@@ -619,7 +657,7 @@
           }
         }
       },
-      "updated": "2025-02-27T02:32:58.513Z"
+      "updated": "2025-02-27T02:36:05.873Z"
     },
     {
       "uuid": "7627b2eb-cbf1-4285-ae93-491ef0011f92",
