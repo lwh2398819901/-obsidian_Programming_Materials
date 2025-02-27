@@ -1,17 +1,25 @@
-# 忽略整个 .obsidian 目录中的内容
+# 忽略整个.obsidian目录下的直接内容
 .obsidian/*
 
-# 但保留以下核心配置和插件相关文件
+# 保留核心配置文件
 !.obsidian/app.json
 !.obsidian/appearance.json
 !.obsidian/community-plugins.json
 !.obsidian/core-plugins.json
 !.obsidian/hotkeys.json
 !.obsidian/graph.json
-!plugins/
-!icons/
-!snippets/
-!themes/
+
+# 保留plugins目录及其子内容（但后续排除特定文件）
+!.obsidian/plugins/
+!.obsidian/plugins/**         # 递归包含所有子内容
+
+# 保留其他目录
+!.obsidian/icons/
+!.obsidian/snippets/
+!.obsidian/themes/
+
+# 单独忽略目标文件
+.obsidian/plugins/recent-files-obsidian/data.json
 
 # 忽略所有缓存和临时文件
 .obsidian/cache/
