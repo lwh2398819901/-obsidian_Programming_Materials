@@ -1,0 +1,22 @@
+{
+  "livePreview": true,
+  "trashOption": "local",
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./附件",
+  "defaultViewMode": "source",
+  "showUnsupportedFiles": false,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "showLineNumber": false,
+  "readableLineLength": true,
+  "uriCallbacks": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "showInlineTitle": true
+}

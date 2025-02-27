@@ -1,0 +1,12 @@
+{
+  "enabledCssSnippets": [
+    "main"
+  ],
+  "baseFontSizeAction": true,
+  "baseFontSize": 14,
+  "showViewHeader": true,
+  "nativeMenus": false,
+  "showRibbon": true,
+  "theme": "moonstone",
+  "cssTheme": ""
+}
