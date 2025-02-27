@@ -1,0 +1,10 @@
+{
+    "id": "mousewheel-image-zoom",
+    "name": "Mousewheel Image zoom",
+    "version": "1.0.22",
+    "minAppVersion": "0.9.12",
+    "description": "该插件可让您通过鼠标滚动来增大/减小图片大小",
+    "author": "Nico Jeske",
+    "authorUrl": "https://github.com/nicojeske/mousewheel-image-zoom",
+    "isDesktopOnly": true
+}

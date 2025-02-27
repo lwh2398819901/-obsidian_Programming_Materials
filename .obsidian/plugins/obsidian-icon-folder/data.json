@@ -1,0 +1,52 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "OcFileSubmodule16",
+      "LiMonitorCog",
+      "LiComputer",
+      "LiCodeSquare",
+      "♠"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "08 网络知识": "LiNetwork",
+  "06 数据库": "LiDatabase",
+  "13 读书笔记": "📚",
+  "01 实用工具": "🧰",
+  "02 编程语言学习": "LiCodeSquare",
+  "04  操作系统": "LiComputer",
+  "03  开源框架及通用框架工具学习/容器虚拟化": "LiContainer",
+  "03  开源框架及通用框架工具学习/网络库": "LiLibrary",
+  "03  开源框架及通用框架工具学习": "LiOpenVault",
+  "09 ai知识": "LiBot",
+  "问题集": "❔",
+  "tmp": "🐟",
+  "附件": "⏬",
+  "05 运维": "LiMonitorCog",
+  "obsidian-pub-config": "OcFileSubmodule16"
+}

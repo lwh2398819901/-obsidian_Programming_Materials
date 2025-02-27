@@ -8,6 +8,10 @@
 !.obsidian/core-plugins.json
 !.obsidian/hotkeys.json
 !.obsidian/graph.json
+!plugins/
+!icons/
+!snippets/
+!themes/
 
 # 忽略所有缓存和临时文件
 .obsidian/cache/

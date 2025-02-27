@@ -1,0 +1,196 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "insert-template",
+      "icon": "lucide-copy",
+      "name": "模板: 插入模板",
+      "mode": "any",
+      "color": "#000000"
+    },
+    {
+      "id": "smart-composer:open-new-chat",
+      "icon": "bot",
+      "name": "Smart Composer: 打开聊天",
+      "mode": "any",
+      "color": "#131516"
+    },
+    {
+      "id": "smart-composer:add-selection-to-chat",
+      "icon": "bot",
+      "name": "Smart Composer: 将选中内容加入聊天",
+      "mode": "any",
+      "color": "#0f0f0f"
+    },
+    {
+      "id": "smart-composer:update-vault-index",
+      "icon": "bot",
+      "name": "Smart Composer: 更新已修改文件的索引",
+      "mode": "any",
+      "color": "#242424"
+    },
+    {
+      "id": "smart-composer:rebuild-vault-index",
+      "icon": "bot",
+      "name": "Smart Composer: 重建整个知识库索引",
+      "mode": "any",
+      "color": "#292e2a"
+    },
+    {
+      "id": "obsidian-git:open-diff-view",
+      "icon": "align-horizontal-space-between",
+      "name": "Git: 打开差异视图",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-git:open-history-view",
+      "icon": "history",
+      "name": "Git: 打开历史记录视图",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-git:open-git-view",
+      "icon": "git-pull-request",
+      "name": "Git: 打开源代码管理视图",
+      "mode": "any"
+    },
+    {
+      "id": "better-export-pdf:export-current-file-to-pdf",
+      "icon": "lucide-book-down",
+      "name": "Better Export PDF: 导出当前文件为PDF",
+      "mode": "any"
+    },
+    {
+      "id": "open-with-default-app:show",
+      "icon": "lucide-files",
+      "name": "在系统资源管理器中显示",
+      "mode": "any"
+    },
+    {
+      "id": "command-palette:open",
+      "icon": "lucide-terminal-square",
+      "name": "命令面板: 打开命令面板",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [
+    {
+      "id": "graph:open-local",
+      "icon": "lucide-git-fork",
+      "name": "关系图谱: 打开局部关系图",
+      "mode": "any"
+    }
+  ],
+  "leftRibbon": [
+    {
+      "id": "cmdr:open-commander-settings",
+      "icon": "lucide-command",
+      "name": "Commander: 打开 Commander 设置",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-weread-plugin:Force-sync-weread-notes-command",
+      "icon": "lucide-book-copy",
+      "name": "Weread: 强制同步微信读书笔记",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-git:open-history-view",
+      "icon": "lucide-history",
+      "name": "Git: 打开历史记录视图",
+      "mode": "any"
+    },
+    {
+      "id": "app:open-settings",
+      "icon": "lucide-settings",
+      "name": "打开设置",
+      "mode": "any"
+    },
+    {
+      "id": "open-with-default-app:show",
+      "icon": "lucide-files",
+      "name": "在系统资源管理器中显示",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "pkmer:open-pkmer-market-view",
+      "icon": "lucide-download-cloud",
+      "name": "PKMer: Open Pkmer Market View",
+      "mode": "any"
+    },
+    {
+      "id": "editor:download-attachments",
+      "icon": "lucide-image-down",
+      "name": "下载当前文件的附件",
+      "mode": "any"
+    },
+    {
+      "id": "pkmer:open-pkmer-market-view",
+      "icon": "lucide-download-cloud",
+      "name": "PKMer: Open Pkmer Market View",
+      "mode": "any"
+    },
+    {
+      "id": "editor:download-attachments",
+      "icon": "lucide-image-down",
+      "name": "Download attachments for current file",
+      "mode": "any"
+    }
+  ],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "workspace:split-vertical"
+        },
+        {
+          "action": 1,
+          "delay": 250
+        },
+        {
+          "action": 0,
+          "commandId": "obsidian-git:open-diff-view"
+        }
+      ],
+      "name": "文件修改对比",
+      "icon": "lucide-file-diff",
+      "startup": false
+    }
+  ],
+  "explorer": [],
+  "hide": {
+    "statusbar": [
+      "editor-status",
+      "pkmer"
+    ],
+    "leftRibbon": [
+      "打开命令面板",
+      "打开快速切换",
+      "Advanced Tables Toolbar",
+      "Open smart composer",
+      "Open Copilot Chat",
+      "插入模板",
+      "新建绘图文件",
+      "Open Pkmer Market"
+    ]
+  },
+  "spacing": "8",
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}
