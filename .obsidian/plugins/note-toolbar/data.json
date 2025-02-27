@@ -16,6 +16,7 @@
   "ribbonAction": "toolbar",
   "scriptingEnabled": false,
   "showEditInFabMenu": true,
+  "showToolbarInCanvas": false,
   "showToolbarInFileMenu": false,
   "toolbarProp": "notetoolbar",
   "toolbars": [
@@ -485,6 +486,44 @@
           }
         },
         {
+          "uuid": "d104cbd7-c07f-405b-bb6d-3da11d8e0242",
+          "label": "",
+          "icon": "lucide-diff",
+          "link": "Version history diff: Show Git Diff view for active file",
+          "linkAttr": {
+            "commandId": "obsidian-version-history-diff:open-git-diff-view",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
           "uuid": "183dc8cf-6c0e-4730-9a10-fcb1945a1d21",
           "label": "",
           "icon": "",
@@ -580,7 +619,7 @@
           }
         }
       },
-      "updated": "2025-02-24T05:54:15.611Z"
+      "updated": "2025-02-27T02:12:23.798Z"
     },
     {
       "uuid": "7627b2eb-cbf1-4285-ae93-491ef0011f92",

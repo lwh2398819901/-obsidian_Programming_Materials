@@ -12,14 +12,14 @@
 # 保留plugins目录及其子内容（但后续排除特定文件）
 !.obsidian/plugins/
 !.obsidian/plugins/**         # 递归包含所有子内容
+# 单独忽略目标文件
+.obsidian/plugins/recent-files-obsidian/data.json
 
 # 保留其他目录
 !.obsidian/icons/
 !.obsidian/snippets/
 !.obsidian/themes/
 
-# 单独忽略目标文件
-.obsidian/plugins/recent-files-obsidian/data.json
 
 # other
 temp/
