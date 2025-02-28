@@ -486,6 +486,44 @@
           }
         },
         {
+          "uuid": "7e0ea361-de4f-4baf-9a50-bd5634f62989",
+          "label": "",
+          "icon": "lucide-git-graph",
+          "link": "Git: 打开历史记录视图",
+          "linkAttr": {
+            "commandId": "obsidian-git:open-history-view",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": " 打开历史记录视图",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
           "uuid": "8f1c4ed2-ae33-4b6a-b640-09391e12c78b",
           "label": "",
           "icon": "lucide-upload",
@@ -524,16 +562,16 @@
           }
         },
         {
-          "uuid": "7e0ea361-de4f-4baf-9a50-bd5634f62989",
+          "uuid": "ed507e5c-2cbc-4b1f-99ff-1047d4333dcc",
           "label": "",
-          "icon": "lucide-git-graph",
-          "link": "Git: 打开历史记录视图",
+          "icon": "lucide-download",
+          "link": "Git: 拉取",
           "linkAttr": {
-            "commandId": "obsidian-git:open-history-view",
+            "commandId": "obsidian-git:pull",
             "hasVars": false,
             "type": "command"
           },
-          "tooltip": " 打开历史记录视图",
+          "tooltip": "获取源文件",
           "visibility": {
             "desktop": {
               "allViews": {
@@ -657,7 +695,7 @@
           }
         }
       },
-      "updated": "2025-02-27T02:36:05.873Z"
+      "updated": "2025-02-28T02:41:21.060Z"
     },
     {
       "uuid": "7627b2eb-cbf1-4285-ae93-491ef0011f92",
