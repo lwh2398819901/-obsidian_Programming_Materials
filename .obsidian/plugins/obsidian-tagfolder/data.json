@@ -10,7 +10,7 @@
   "expandLimit": 5,
   "disableNestedTags": false,
   "hideItems": "NONE",
-  "ignoreFolders": "",
+  "ignoreFolders": "00-1 obsidian模板/textgenerator,资料\n",
   "targetFolders": "",
   "scanDelay": 250,
   "useTitle": true,
