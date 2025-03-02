@@ -113,6 +113,18 @@
       "icon": "lucide-files",
       "name": "在系统资源管理器中显示",
       "mode": "any"
+    },
+    {
+      "id": "cmdr:macro-0",
+      "icon": "lucide-upload",
+      "name": "Commander: 保存并提交",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-git:pull",
+      "icon": "lucide-download",
+      "name": "Git: 拉取",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],
