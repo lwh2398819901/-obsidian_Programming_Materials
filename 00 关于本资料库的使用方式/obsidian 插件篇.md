@@ -75,7 +75,7 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 ![|386](附件/Pasted%20image%2020250123172711.png                          )
 <font color="#00b050">评价： 非常方便快捷感谢！英文不好的小伙伴必备！</font>
 
-#### AI 辅助  Smart Composer (必装)   #ai                                                                                                                                                                                                                               
+#### AI 辅助  Smart Composer (必装)   #ai                                                                                                                                                                                                                                     
         
         
           
