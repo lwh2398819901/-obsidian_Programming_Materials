@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "providers": [
     {
       "type": "openai",
@@ -58,6 +58,12 @@
     }
   ],
   "chatModels": [
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-3.7-sonnet",
+      "model": "claude-3-7-sonnet-latest"
+    },
     {
       "providerType": "anthropic",
       "providerId": "anthropic",

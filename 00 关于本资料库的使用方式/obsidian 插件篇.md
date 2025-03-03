@@ -76,8 +76,8 @@ i18n 是一个用于 Obsidian 的国际化插件，可以帮助用户将界面�
 ![|450](附件/Pasted%20image%2020250303132927.png)
 <font color="#00b050">评价： 非常方便快捷感谢！英文不好的小伙伴必备！</font>
 
-#### AI 辅助  Smart Composer (必装)   #ai                                                                                
-[glowingjade/obsidian-smart-composer: AI chat assistant for Obsidian with contextual awareness, smart writing assistance, and one-click edits. Features vault-aware conversations, semantic search, and local model support.                    ](https://github.com/glowingjade/obsidian-smart-composer)
+#### AI 辅助  Smart Composer (必装)   #ai                                                                                  
+[glowingjade/obsidian-smart-composer: AI chat assistant for Obsidian with contextual awareness, smart writing assistance, and one-click edits. Features vault-aware conversations, semantic search, and local model support.                      ](https://github.com/glowingjade/obsidian-smart-composer)
 
 旨在通过AI帮助用户高效写作，并能够轻松引用库中的内容。以下是其主要特点和功能：
 

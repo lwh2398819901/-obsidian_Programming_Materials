@@ -24,9 +24,8 @@
       "uuid": "70b3a646-fd68-4582-b159-047282d76140",
       "customClasses": "",
       "defaultStyles": [
-        "border",
-        "sticky",
-        "button"
+        "button",
+        "border"
       ],
       "items": [
         {
@@ -600,14 +599,14 @@
           }
         },
         {
-          "uuid": "183dc8cf-6c0e-4730-9a10-fcb1945a1d21",
+          "uuid": "48271557-fd24-48aa-aded-b41ee7934a9f",
           "label": "",
           "icon": "",
           "link": "",
           "linkAttr": {
             "commandId": "",
             "hasVars": false,
-            "type": "break"
+            "type": "separator"
           },
           "tooltip": "",
           "visibility": {
@@ -695,7 +694,7 @@
           }
         }
       },
-      "updated": "2025-03-03T03:41:57.098Z"
+      "updated": "2025-03-03T05:36:58.822Z"
     },
     {
       "uuid": "7627b2eb-cbf1-4285-ae93-491ef0011f92",
