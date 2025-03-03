@@ -3,7 +3,6 @@
 
 # 保留核心配置文件
 !.obsidian/app.json
-!.obsidian/appearance.json
 !.obsidian/community-plugins.json
 !.obsidian/core-plugins.json
 !.obsidian/hotkeys.json
