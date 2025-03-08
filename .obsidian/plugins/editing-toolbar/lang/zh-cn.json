@@ -1,6 +1,6 @@
 {
     "manifest": {
-        "translationVersion": -639075600000,
+        "translationVersion": 1740821804378,
         "pluginVersion": "2.4.16"
     },
     "description": {
@@ -77,9 +77,14 @@
         "name:\"checklist\"": "name:\"列表\"",
         "name:\"submenu-list\"": "name:\"子菜单-列表\"",
         "name:\"submenu-aligin\"": "name:\"子菜单-位置\"",
-        "name:'<p aligin=\"left\"></p>'": "name:'<p aligin=\"靠左\"></p>'",
         "name:\"<center>\"": "name:\"<居中>\"",
-        "name:'<p aligin=\"justify\"></p>'": "name:'<p aligin=\"对齐\"></p>'",
-        "name:'<p aligin=\"right\"></p>'": "name:'<p aligin=\"靠右\"></p>'"
+        "\"glass\"": "\"毛玻璃\"",
+        "\"cut editor\"": "\"剪切编辑器\"",
+        "\"copy editor\"": "\"复制编辑器\"",
+        "\"paste editor\"": "\"粘贴编辑器\"",
+        "\"Toggle upload attach file\"": "\"上传附件\"",
+        "\"Toggle clear formatting\"": "\"格式清除\"",
+        "\"Toggle swap line up\"": "\"行上移\"",
+        "\"Toggle swap line down\"": "\"行下移\""
     }
 }
