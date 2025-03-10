@@ -1,6 +1,6 @@
 ---
 tags:
-  - "#plaugin"
+  - "#plugin"
   - "#ai"
   - ai生成
 ---

@@ -129,7 +129,14 @@
   ],
   "rightRibbon": [],
   "titleBar": [],
-  "statusBar": [],
+  "statusBar": [
+    {
+      "id": "workspaces:open-modal",
+      "icon": "lucide-layout",
+      "name": "工作区: 管理工作区布局",
+      "mode": "any"
+    }
+  ],
   "pageHeader": [
     {
       "id": "pkmer:open-pkmer-market-view",
@@ -141,18 +148,6 @@
       "id": "editor:download-attachments",
       "icon": "lucide-image-down",
       "name": "下载当前文件的附件",
-      "mode": "any"
-    },
-    {
-      "id": "pkmer:open-pkmer-market-view",
-      "icon": "lucide-download-cloud",
-      "name": "PKMer: Open Pkmer Market View",
-      "mode": "any"
-    },
-    {
-      "id": "editor:download-attachments",
-      "icon": "lucide-image-down",
-      "name": "Download attachments for current file",
       "mode": "any"
     }
   ],
