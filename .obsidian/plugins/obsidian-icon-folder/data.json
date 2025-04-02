@@ -43,10 +43,10 @@
   "03  开源框架及通用框架工具学习/容器虚拟化": "LiContainer",
   "03  开源框架及通用框架工具学习/网络库": "LiLibrary",
   "03  开源框架及通用框架工具学习": "LiOpenVault",
-  "09 ai知识": "LiBot",
   "问题集": "❔",
   "tmp": "🐟",
   "附件": "⏬",
   "05 运维": "LiMonitorCog",
-  "obsidian-pub-config": "OcFileSubmodule16"
+  "obsidian-pub-config": "OcFileSubmodule16",
+  "09 ai相关": "LiBot"
 }

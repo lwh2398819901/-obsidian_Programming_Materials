@@ -37,24 +37,25 @@
       "apiKey": "sk-gsgwuibkpdswpqeswfhnavbbbyxoqaejsseetdaxdxrlejbj"
     },
     {
-      "type": "openai-compatible",
-      "id": "alibaba_dp_v3",
-      "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
-      "apiKey": "sk-8f0f400ebc8a488a94e8e20215e7452b"
-    },
-    {
       "type": "lm-studio",
       "id": "lm-studio"
     },
     {
       "type": "deepseek",
       "id": "deepseek",
-      "baseUrl": "",
-      "apiKey": "sk-8199296517274ce8a374ae1c8d6f43f9"
+      "baseUrl": " https://api.deepseek.com/v1",
+      "apiKey": "sk-78d462c81faa4010a0fa32dc5cd73beb"
     },
     {
       "type": "morph",
       "id": "morph"
+    },
+    {
+      "type": "openai",
+      "id": "free QWQ",
+      "baseUrl": "https://api.suanli.cn/v1",
+      "apiKey": "sk-Ivdk7ft27sRAU0guX2Bk5KUjSujaaBea8rq7jGk8I8GEU5ru",
+      "additionalSettings": {}
     }
   ],
   "chatModels": [
@@ -162,12 +163,6 @@
       "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"
     },
     {
-      "providerType": "openai-compatible",
-      "providerId": "alibaba_dp_v3",
-      "id": "ali_deepseek-v3",
-      "model": "deepseek-v3"
-    },
-    {
       "providerType": "deepseek",
       "providerId": "deepseek",
       "id": "deepseek-chat",
@@ -184,6 +179,18 @@
       "providerId": "morph",
       "id": "morph-v0",
       "model": "morph-v0"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "free QWQ",
+      "id": "freeQWQ_QWQ",
+      "model": "QwQ-32B"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "free QWQ",
+      "id": "freeQWQ_DeepSeek_R1_7B",
+      "model": "deepseek-r1:7b"
     }
   ],
   "embeddingModels": [

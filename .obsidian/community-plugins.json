@@ -15,7 +15,6 @@
   "mousewheel-image-zoom",
   "note-toolbar",
   "pdf-plus",
-  "pkmer",
   "obsidian-quiet-outline",
   "recent-files-obsidian",
   "surfing",
@@ -28,5 +27,6 @@
   "obsidian-textgenerator-plugin",
   "table-editor-obsidian",
   "obsidian-version-history-diff",
-  "my_obsidian_plugin"
+  "pkmer",
+  "obsidian-emoji-toolbar"
 ]

@@ -31,3 +31,4 @@ tmp/*
 .smart-env
 .smtcmp_vector_db.tar.gz
 .smtcmp_chat_histories/*
+.smtcmp_json_db/*

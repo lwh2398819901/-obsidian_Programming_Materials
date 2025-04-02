@@ -13,10 +13,19 @@
     }
   ],
   "icon": "",
+  "onboarding": {
+    "new-toolbar-mapping": true
+  },
   "ribbonAction": "toolbar",
   "scriptingEnabled": false,
   "showEditInFabMenu": true,
-  "showToolbarInCanvas": false,
+  "showToolbarIn": {
+    "audio": false,
+    "canvas": false,
+    "image": false,
+    "pdf": false,
+    "video": false
+  },
   "showToolbarInFileMenu": false,
   "toolbarProp": "notetoolbar",
   "toolbars": [
@@ -711,6 +720,45 @@
               }
             }
           }
+        },
+        {
+          "uuid": "410740d5-edde-4c8a-a32c-394cb93a199d",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-smile-plus",
+          "link": "Emoji Toolbar: Open emoji picker",
+          "linkAttr": {
+            "commandId": "obsidian-emoji-toolbar:emoji-picker:open-picker",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "emoji",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
         }
       ],
       "mobileStyles": [],
@@ -732,7 +780,7 @@
           }
         }
       },
-      "updated": "2025-03-10T01:33:20.380Z"
+      "updated": "2025-04-02T03:08:50.902Z"
     },
     {
       "uuid": "7627b2eb-cbf1-4285-ae93-491ef0011f92",
@@ -1071,6 +1119,7 @@
       "updated": "2025-02-22T06:49:13.728Z"
     }
   ],
-  "version": 20240727.1,
-  "whatsnew_version": 1.191
+  "version": 20250302.1,
+  "whatsnew_version": 1.2,
+  "showToolbarInCanvas": false
 }
