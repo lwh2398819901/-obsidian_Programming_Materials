@@ -608,44 +608,6 @@
           }
         },
         {
-          "uuid": "94383d86-d7a2-42ca-ac6f-0435f6c97faa",
-          "label": "",
-          "icon": "lucide-table",
-          "link": "My Obsidian Plugin: 创建空表格",
-          "linkAttr": {
-            "commandId": "my_obsidian_plugin:create-empty-table",
-            "hasVars": false,
-            "type": "command"
-          },
-          "tooltip": "自定义插件测试:创建空表格",
-          "visibility": {
-            "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
-            },
-            "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
-            },
-            "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
-            }
-          }
-        },
-        {
           "uuid": "259be57b-b4b7-4498-b404-7456f4da7ec8",
           "label": "",
           "icon": "",
@@ -780,7 +742,7 @@
           }
         }
       },
-      "updated": "2025-04-02T03:08:50.902Z",
+      "updated": "2025-04-11T08:57:05.246Z",
       "hasCommand": false
     },
     {
