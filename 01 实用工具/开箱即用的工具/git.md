@@ -50,8 +50,7 @@ git submodule add git@gitee.com:lwh2398819901/project-sub-1.git
         url = git@gitee.com:lwh2398819901/project-sub-1.git
 ```
 
-<br/>
-<br/>
+
 
 **2.获取 submodule**
 
