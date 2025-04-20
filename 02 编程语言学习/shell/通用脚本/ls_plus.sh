@@ -15,6 +15,10 @@ source_dir="$1"
 target_dir="$2"
 type="$3"
 
+ //c11之前
+ vector<list<int> >；
+ //c11之后
+ vector<list<int>>；
 # 创建目标文件夹（如果不存在的话）
 mkdir -p "$target_dir"
 
