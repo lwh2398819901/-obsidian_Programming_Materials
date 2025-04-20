@@ -73,7 +73,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "5bea286c-fb37-4d5b-aaed-0110fe2b9c22",
@@ -111,7 +112,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "e6b6bc61-6c2c-4b29-a9a6-4cdf15788b93",
@@ -149,7 +151,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "b8125727-91f5-431d-9159-115ba95b6762",
@@ -187,7 +190,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "abcef1bb-50f7-41c6-b573-21d5fd940e0a",
@@ -225,7 +229,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "354e26c4-655e-419e-88a3-33885c1841c5",
@@ -263,7 +268,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "52a7ecd4-32b0-4ad4-9992-63c30a893cf5",
@@ -301,7 +307,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "8bc0fa74-c9bc-43d9-b6c1-46973ea83bf9",
@@ -339,7 +346,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "54bb4d64-58ff-4ad7-86d3-b3ea1ab5c4b9",
@@ -377,7 +385,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "b7a21a32-f8bb-4a52-93ba-a3e1ca3dbed9",
@@ -415,7 +424,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "cc19afd0-e2f5-44f5-a814-ff7953a6d7a1",
@@ -453,7 +463,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "d104cbd7-c07f-405b-bb6d-3da11d8e0242",
@@ -491,7 +502,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "7e0ea361-de4f-4baf-9a50-bd5634f62989",
@@ -529,7 +541,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "8f1c4ed2-ae33-4b6a-b640-09391e12c78b",
@@ -567,7 +580,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "ed507e5c-2cbc-4b1f-99ff-1047d4333dcc",
@@ -605,7 +619,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "259be57b-b4b7-4498-b404-7456f4da7ec8",
@@ -643,45 +658,8 @@
                 ]
               }
             }
-          }
-        },
-        {
-          "uuid": "94383d86-d7a2-42ca-ac6f-0435f6c97faa",
-          "label": "",
-          "icon": "lucide-table",
-          "link": "My Obsidian Plugin: 创建空表格",
-          "linkAttr": {
-            "commandId": "my_obsidian_plugin:create-empty-table",
-            "hasVars": false,
-            "type": "command"
           },
-          "tooltip": "自定义插件测试:创建空表格",
-          "visibility": {
-            "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
-            },
-            "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
-            },
-            "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
-            }
-          }
+          "inGallery": false
         },
         {
           "uuid": "8cfd0cb3-fee1-4769-87ae-60c0dc3d9e90",
@@ -719,7 +697,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "410740d5-edde-4c8a-a32c-394cb93a199d",
@@ -758,7 +737,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         }
       ],
       "mobileStyles": [],
@@ -780,7 +760,7 @@
           }
         }
       },
-      "updated": "2025-04-02T03:08:50.902Z"
+      "updated": "2025-04-20T13:22:08.307Z"
     },
     {
       "uuid": "7627b2eb-cbf1-4285-ae93-491ef0011f92",
@@ -828,7 +808,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "03443c37-6880-4165-af5b-328ade42a7de",
@@ -866,7 +847,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "09a13b32-bfc8-4aa8-ba7a-1cc4559f99d9",
@@ -904,7 +886,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "e390df9f-c900-4e1e-9ca9-3cbb7140d750",
@@ -942,7 +925,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "461f2fcd-6d01-4069-974e-a7a2744988b9",
@@ -980,7 +964,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "df2b4428-86a4-4554-913a-498cd0c0638d",
@@ -1018,7 +1003,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "c9aa7484-88d3-438b-9fa8-95af4254436c",
@@ -1056,7 +1042,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "939f9e2b-4bd3-4090-8e1d-0fc53427b5ad",
@@ -1094,7 +1081,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         }
       ],
       "mobileStyles": [],
@@ -1119,7 +1107,7 @@
       "updated": "2025-02-22T06:49:13.728Z"
     }
   ],
-  "version": 20250302.1,
-  "whatsnew_version": 1.2,
+  "version": 20250313.1,
+  "whatsnew_version": 1.21,
   "showToolbarInCanvas": false
 }

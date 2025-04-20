@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 7,
   "providers": [
     {
       "type": "openai",
@@ -17,6 +17,16 @@
       "apiKey": ""
     },
     {
+      "type": "deepseek",
+      "id": "deepseek",
+      "baseUrl": " https://api.deepseek.com/v1",
+      "apiKey": "sk-78d462c81faa4010a0fa32dc5cd73beb"
+    },
+    {
+      "type": "perplexity",
+      "id": "perplexity"
+    },
+    {
       "type": "groq",
       "id": "groq",
       "apiKey": ""
@@ -31,24 +41,18 @@
       "baseUrl": "http://127.0.0.1:11434"
     },
     {
-      "type": "openai-compatible",
-      "id": "custom-1",
-      "baseUrl": "https://api.siliconflow.cn/v1",
-      "apiKey": "sk-gsgwuibkpdswpqeswfhnavbbbyxoqaejsseetdaxdxrlejbj"
-    },
-    {
       "type": "lm-studio",
       "id": "lm-studio"
     },
     {
-      "type": "deepseek",
-      "id": "deepseek",
-      "baseUrl": " https://api.deepseek.com/v1",
-      "apiKey": "sk-78d462c81faa4010a0fa32dc5cd73beb"
-    },
-    {
       "type": "morph",
       "id": "morph"
+    },
+    {
+      "type": "openai-compatible",
+      "id": "custom-1",
+      "baseUrl": "https://api.siliconflow.cn/v1",
+      "apiKey": "sk-gsgwuibkpdswpqeswfhnavbbbyxoqaejsseetdaxdxrlejbj"
     },
     {
       "type": "openai",
@@ -68,8 +72,23 @@
     {
       "providerType": "anthropic",
       "providerId": "anthropic",
+      "id": "claude-3.7-sonnet-thinking",
+      "model": "claude-3-7-sonnet-latest",
+      "thinking": {
+        "budget_tokens": 8192
+      }
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
       "id": "claude-3.5-sonnet",
       "model": "claude-3-5-sonnet-latest"
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-3.5-haiku",
+      "model": "claude-3-5-haiku-latest"
     },
     {
       "providerType": "openai",
@@ -84,6 +103,44 @@
       "model": "gpt-4o-mini"
     },
     {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "o3-mini",
+      "model": "o3-mini",
+      "reasoning_effort": "medium"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "o1",
+      "model": "o1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini-2.5-pro",
+      "model": "gemini-2.5-pro-preview-03-25"
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini-2.0-flash",
+      "model": "gemini-2.0-flash"
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini-2.0-flash-thinking",
+      "model": "gemini-2.0-flash-thinking-exp"
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini-2.0-flash-lite",
+      "model": "gemini-2.0-flash-lite"
+    },
+    {
       "providerType": "gemini",
       "providerId": "gemini",
       "id": "gemini-1.5-pro",
@@ -92,14 +149,71 @@
     {
       "providerType": "gemini",
       "providerId": "gemini",
-      "id": "gemini-2.0-flash",
-      "model": "gemini-2.0-flash-exp"
+      "id": "gemini-1.5-flash",
+      "model": "gemini-1.5-flash"
     },
     {
-      "providerType": "gemini",
-      "providerId": "gemini",
-      "id": "gemini-2.0-flash-thinking",
-      "model": "gemini-2.0-flash-thinking-exp"
+      "providerType": "deepseek",
+      "providerId": "deepseek",
+      "id": "deepseek-chat",
+      "model": "deepseek-chat"
+    },
+    {
+      "providerType": "deepseek",
+      "providerId": "deepseek",
+      "id": "deepseek-reasoner",
+      "model": "deepseek-reasoner"
+    },
+    {
+      "providerType": "perplexity",
+      "providerId": "perplexity",
+      "id": "sonar",
+      "model": "sonar",
+      "web_search_options": {
+        "search_context_size": "low"
+      }
+    },
+    {
+      "providerType": "perplexity",
+      "providerId": "perplexity",
+      "id": "sonar-pro",
+      "model": "sonar",
+      "web_search_options": {
+        "search_context_size": "low"
+      }
+    },
+    {
+      "providerType": "perplexity",
+      "providerId": "perplexity",
+      "id": "sonar-deep-research",
+      "model": "sonar-deep-research",
+      "web_search_options": {
+        "search_context_size": "low"
+      }
+    },
+    {
+      "providerType": "perplexity",
+      "providerId": "perplexity",
+      "id": "sonar-reasoning",
+      "model": "sonar",
+      "web_search_options": {
+        "search_context_size": "low"
+      }
+    },
+    {
+      "providerType": "perplexity",
+      "providerId": "perplexity",
+      "id": "sonar-reasoning-pro",
+      "model": "sonar",
+      "web_search_options": {
+        "search_context_size": "low"
+      }
+    },
+    {
+      "providerType": "morph",
+      "providerId": "morph",
+      "id": "morph-v0",
+      "model": "morph-v0"
     },
     {
       "providerType": "gemini",
@@ -112,25 +226,6 @@
       "providerId": "groq",
       "id": "groq/llama-3.1-70b",
       "model": "llama-3.1-70b-versatile"
-    },
-    {
-      "providerType": "openai",
-      "providerId": "openai",
-      "id": "o1",
-      "model": "o1",
-      "streamingDisabled": true
-    },
-    {
-      "providerType": "anthropic",
-      "providerId": "anthropic",
-      "id": "claude-3.5-haiku",
-      "model": "claude-3-5-haiku-latest"
-    },
-    {
-      "providerType": "gemini",
-      "providerId": "gemini",
-      "id": "gemini-1.5-flash",
-      "model": "gemini-1.5-flash"
     },
     {
       "providerType": "groq",
@@ -161,24 +256,6 @@
       "providerId": "custom-1",
       "id": "qw2",
       "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"
-    },
-    {
-      "providerType": "deepseek",
-      "providerId": "deepseek",
-      "id": "deepseek-chat",
-      "model": "deepseek-chat"
-    },
-    {
-      "providerType": "deepseek",
-      "providerId": "deepseek",
-      "id": "deepseek-reasoner",
-      "model": "deepseek-reasoner"
-    },
-    {
-      "providerType": "morph",
-      "providerId": "morph",
-      "id": "morph-v0",
-      "model": "morph-v0"
     },
     {
       "providerType": "openai",
