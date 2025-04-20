@@ -1,5 +1,5 @@
 {
-  "emptyViewToolbar": "70b3a646-fd68-4582-b159-047282d76140",
+  "emptyViewToolbar": null,
   "export": {
     "includeIcons": true,
     "replaceVars": true,
@@ -646,6 +646,44 @@
           }
         },
         {
+          "uuid": "94383d86-d7a2-42ca-ac6f-0435f6c97faa",
+          "label": "",
+          "icon": "lucide-table",
+          "link": "My Obsidian Plugin: 创建空表格",
+          "linkAttr": {
+            "commandId": "my_obsidian_plugin:create-empty-table",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "自定义插件测试:创建空表格",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
           "uuid": "8cfd0cb3-fee1-4769-87ae-60c0dc3d9e90",
           "label": "",
           "icon": "",
@@ -742,8 +780,7 @@
           }
         }
       },
-      "updated": "2025-04-19T06:22:58.317Z",
-      "hasCommand": false
+      "updated": "2025-04-02T03:08:50.902Z"
     },
     {
       "uuid": "7627b2eb-cbf1-4285-ae93-491ef0011f92",
