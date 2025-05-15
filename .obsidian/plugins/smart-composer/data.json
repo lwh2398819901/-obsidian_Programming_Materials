@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 10,
   "providers": [
     {
       "type": "openai",
@@ -30,6 +30,10 @@
       "type": "groq",
       "id": "groq",
       "apiKey": ""
+    },
+    {
+      "type": "mistral",
+      "id": "mistral"
     },
     {
       "type": "openrouter",
@@ -93,6 +97,24 @@
     {
       "providerType": "openai",
       "providerId": "openai",
+      "id": "gpt-4.1",
+      "model": "gpt-4.1"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-4.1-mini",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-4.1-nano",
+      "model": "gpt-4.1-nano"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
       "id": "gpt-4o",
       "model": "gpt-4o"
     },
@@ -105,22 +127,22 @@
     {
       "providerType": "openai",
       "providerId": "openai",
-      "id": "o3-mini",
-      "model": "o3-mini",
+      "id": "o4-mini",
+      "model": "o4-mini",
       "reasoning_effort": "medium"
     },
     {
       "providerType": "openai",
       "providerId": "openai",
-      "id": "o1",
-      "model": "o1",
+      "id": "o3",
+      "model": "o3",
       "reasoning_effort": "medium"
     },
     {
       "providerType": "gemini",
       "providerId": "gemini",
       "id": "gemini-2.5-pro",
-      "model": "gemini-2.5-pro-preview-03-25"
+      "model": "gemini-2.5-pro-exp-03-25"
     },
     {
       "providerType": "gemini",
@@ -214,6 +236,20 @@
       "providerId": "morph",
       "id": "morph-v0",
       "model": "morph-v0"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "o3-mini",
+      "model": "o3-mini",
+      "reasoning_effort": "medium"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "o1",
+      "model": "o1",
+      "reasoning_effort": "medium"
     },
     {
       "providerType": "gemini",
@@ -325,5 +361,13 @@
     "limit": 10,
     "excludePatterns": [],
     "includePatterns": []
+  },
+  "mcp": {
+    "servers": []
+  },
+  "chatOptions": {
+    "includeCurrentFileContent": true,
+    "enableTools": true,
+    "maxAutoIterations": 1
   }
 }
