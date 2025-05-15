@@ -1,4 +1,5 @@
 {
+  "debugEnabled": false,
   "emptyViewToolbar": null,
   "export": {
     "includeIcons": true,
@@ -16,6 +17,9 @@
   "onboarding": {
     "new-toolbar-mapping": true
   },
+  "recentFiles": [
+    "13 读书笔记/读书/卡钦斯基：论工业社会及其未来.md"
+  ],
   "ribbonAction": "toolbar",
   "scriptingEnabled": false,
   "showEditInFabMenu": true,
