@@ -18,6 +18,7 @@
     "new-toolbar-mapping": true
   },
   "recentFiles": [
+    "04  操作系统/linux/系统知识/02 权限控制.md",
     "01 实用工具/开箱即用的工具/未命名.md",
     "01 实用工具/开箱即用的工具/【windows】小而美的软件.md",
     "01 实用工具/开箱即用的工具/anacanda.md",
@@ -26,8 +27,7 @@
     "02 编程语言学习/python/2.变量.md",
     "02 编程语言学习/python/未命名.md",
     "02 编程语言学习/前端/html标签及属性.md",
-    "02 编程语言学习/前端/html.md",
-    "02 编程语言学习/javaScript/未命名.md"
+    "02 编程语言学习/前端/html.md"
   ],
   "ribbonAction": "toolbar",
   "scriptingEnabled": false,
