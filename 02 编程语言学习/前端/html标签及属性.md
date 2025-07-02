@@ -415,5 +415,247 @@ ASCII码中的一些特殊字符也可以通过HTML实体来表示。
 - **`rowspan`**：规定单元格跨越多行。例如 `rowspan="3"` 表示该单元格跨越三行。
 
 
+
+
+## 列表标签
+
+### 无序列表
+
+`<ul>`：无序列表标签，unordered list 的缩写，表示无序列表  注意 ul标签中只能放置 li标签
+`<li>`：列表项标签，list item 的缩写，表示列表中的每一项  注意 li标签中可以放任何元素
+
+| 属性 | 用途 | 示例 |
+|------|------|------|
+| `type` | 列表项标记类型：disc（实心圆点，默认）、circle（空心圆圈）、square（实心方块） | `<ul type="circle">` |
+| `start` | 列表项标记的起始编号 | `<ol start="5">` |
+| `value` | 列表项标记的编号 | `<li value="5">` |
+
+
+```html
+<h3>我的爱好</h3>
+<ul>
+    <li>编程</li>
+    <li>阅读</li>
+    <li>音乐</li>
+    <li>运动</li>
+</ul>
+
+<!-- 不同标记类型 -->
+<ul type="disc">
+    <li>实心圆点（默认）</li>
+</ul>
+<ul type="circle">
+    <li>空心圆圈</li>
+</ul>
+<ul type="square">
+    <li>实心方块</li>
+</ul>
+```
+
+### 有序列表
+
+`<ol>`：有序列表标签，ordered list 的缩写，表示有序列表
+`<li>`：列表项标签，list item 的缩写，表示列表中的每一项
+
+| 属性 | 用途 | 示例 |
+|------|------|------|
+| `type` | 编号类型：1（数字，默认）、A（大写字母）、a（小写字母）、I（大写罗马数字）、i（小写罗马数字） | `<ol type="A">` |
+| `start` | 起始编号，指定从哪个数字开始 | `<ol start="3">` |
+| `reversed` | 倒序排列 | `<ol reversed>` |
+
+```html
+<h3>学习计划</h3>
+<ol>
+    <li>学习HTML基础</li>
+    <li>学习CSS样式</li>
+    <li>学习JavaScript</li>
+    <li>完成项目实战</li>
+</ol>
+
+<!-- 不同编号类型 -->
+<ol type="1">
+    <li>数字编号（默认）</li>
+</ol>
+<ol type="A">
+    <li>大写字母编号</li>
+</ol>
+<ol type="a">
+    <li>小写字母编号</li>
+</ol>
+<ol type="I">
+    <li>大写罗马数字</li>
+</ol>
+<ol type="i">
+    <li>小写罗马数字</li>
+</ol>
+
+<!-- 指定起始编号 -->
+<ol start="5">
+    <li>从第5项开始</li>
+    <li>第6项</li>
+    <li>第7项</li>
+</ol>
+
+<!-- 倒序排列 -->
+<ol reversed>
+    <li>倒序第一项</li>
+    <li>倒序第二项</li>
+    <li>倒序第三项</li>
+</ol>
+```
+
+### 自定义列表
+
+`<dl>`：自定义列表标签，description list 的缩写，表示定义列表
+`<dt>`：定义术语标签，description term 的缩写，表示被定义的术语
+`<dd>`：定义描述标签，description description 的缩写，表示术语的描述
+
+```html
+<h3>前端技术词汇</h3>
+<dl>
+    <dt>HTML</dt>
+    <dd>超文本标记语言，用于创建网页的标准标记语言</dd>
+    
+    <dt>CSS</dt>
+    <dd>层叠样式表，用于描述HTML文档的样式和布局</dd>
+    
+    <dt>JavaScript</dt>
+    <dd>一种动态编程语言，用于为网页添加交互功能</dd>
+    
+    <dt>响应式设计</dt>
+    <dd>一种网页设计方法，使网页能够适应不同设备的屏幕尺寸</dd>
+    <dd>包括桌面电脑、平板电脑和移动设备</dd>
+</dl>
+```
+
+### 嵌套列表
+
+列表可以相互嵌套，创建多层级的列表结构：
+
+```html
+<h3>前端学习路线</h3>
+<ol>
+    <li>HTML基础
+        <ul>
+            <li>HTML标签</li>
+            <li>HTML属性</li>
+            <li>表格和表单</li>
+        </ul>
+    </li>
+    <li>CSS样式
+        <ul>
+            <li>CSS基础语法</li>
+            <li>布局技术
+                <ol>
+                    <li>Flexbox布局</li>
+                    <li>Grid布局</li>
+                    <li>响应式设计</li>
+                </ol>
+            </li>
+            <li>CSS动画</li>
+        </ul>
+    </li>
+    <li>JavaScript编程
+        <ul>
+            <li>基础语法</li>
+            <li>DOM操作</li>
+            <li>事件处理</li>
+        </ul>
+    </li>
+</ol>
+```
+
+### 完整示例
+
+```html
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>列表标签综合示例</title>
+</head>
+<body>
+
+    <h1>列表标签综合示例</h1>
+
+    <h2>无序列表示例</h2>
+    <h3>购物清单</h3>
+    <ul>
+        <li>牛奶</li>
+        <li>面包</li>
+        <li>鸡蛋</li>
+        <li>水果</li>
+    </ul>
+
+    <h2>有序列表示例</h2>
+    <h3>做菜步骤</h3>
+    <ol>
+        <li>准备食材</li>
+        <li>清洗食材</li>
+        <li>切配食材</li>
+        <li>开始烹饪</li>
+        <li>调味品尝</li>
+        <li>装盘上桌</li>
+    </ol>
+
+    <h2>自定义列表示例</h2>
+    <h3>编程语言介绍</h3>
+    <dl>
+        <dt>Python</dt>
+        <dd>一种高级编程语言，语法简洁明了</dd>
+        <dd>广泛应用于数据分析、机器学习、Web开发等领域</dd>
+        
+        <dt>Java</dt>
+        <dd>面向对象的编程语言，具有跨平台特性</dd>
+        
+        <dt>JavaScript</dt>
+        <dd>主要用于网页开发的脚本语言</dd>
+        <dd>现在也可以用于服务器端开发</dd>
+    </dl>
+
+    <h2>嵌套列表示例</h2>
+    <h3>网站开发流程</h3>
+    <ol>
+        <li>项目规划
+            <ul>
+                <li>需求分析</li>
+                <li>技术选型</li>
+                <li>时间安排</li>
+            </ul>
+        </li>
+        <li>设计阶段
+            <ul>
+                <li>UI设计</li>
+                <li>交互设计</li>
+                <li>数据库设计</li>
+            </ul>
+        </li>
+        <li>开发阶段
+            <ul>
+                <li>前端开发
+                    <ol>
+                        <li>HTML结构</li>
+                        <li>CSS样式</li>
+                        <li>JavaScript交互</li>
+                    </ol>
+                </li>
+                <li>后端开发</li>
+                <li>数据库开发</li>
+            </ul>
+        </li>
+        <li>测试上线
+            <ul>
+                <li>功能测试</li>
+                <li>性能测试</li>
+                <li>部署上线</li>
+            </ul>
+        </li>
+    </ol>
+
+</body>
+</html>
+```
+
 #todo 前端学习看到这里
 [09-无序列表_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1RK4y1X7qd?spm_id_from=333.788.videopod.episodes&vd_source=ccbe0c793ac5e34ebb735794692f049e&p=38)
